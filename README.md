@@ -10,13 +10,17 @@ This project was built using React, Ruby on Rails, PostgresQL, Semantic UI, Reac
 
 Andrew and I decided to create a mock "Reddit" with some added features. Our first extended feature was a "User Credibility Score." When a user creates an account, they are dropped into the cReddit community with 100 points. Our second added feature was for the user to claim their rebuttal to a post was either an opinion or fact. This led to another idea, if the user was claiming their response to a post was a fact, they would have to add a url to a source that validates their claim. Our third feature was creating a Source Validation feature. Other users viewing a post and its responses would be able to either validate another user's rebuttal if it was a fact or dispute it. If the response's URL source provided insufficient evidence to validate the user's claim, other users can dispute the source and so called fact leading to decrementing the user's credibility score who posted the response. Vice versa, if the user provides a solid source for a rebuttal, the other users can validate in turn incrementing the user's credibility score. We then added a filter to sort posts and commments.
 
-### Challenges
+### Links to Repo's
 
-This turned out to be a fairly large project for only working on it for 4 1/2 days. 
+Backend =>  <a href="https://github.com/TylerKnvpp/cReddit-backend">Ruby on Rails Backend</a>
+
+Frontend => <a href="https://github.com/asantos649/cReddit-frontend">React Frontend</a>
+
+### Challenges
 
 ##### Frontend
 
-We we're expecting to run into some roadblocks since we were using pure React without a state management library like Redux, but managing the data from the frontend went rather smoothly. We used this project as an opportunity to play with some React libraries such as Formik which made life really easy and added some nice field validations. Semantic UI was another library we used to fast-forward some the design of the project. It was straightforward to use and really helped dive our project a professional and clean UX. We did run into a problem with managing state with the built in forms which led us to Formik, but other than that it was really nice to work with Semantic.
+This turned out to be a fairly large project for only working on it for 4 1/2 days. We we're expecting to run into some roadblocks since we were using pure React without a state management library like Redux, but managing the data from the frontend went rather smoothly. We used this project as an opportunity to play with some React libraries such as Formik which made life really easy and added some nice field validations. Semantic UI was another library we used to fast-forward some the design of the project. It was straightforward to use and really helped dive our project a professional and clean UX. We did run into a problem with managing state with the built in forms which led us to Formik, but other than that it was really nice to work with Semantic.
 
 ##### Backend & Data Model
 
